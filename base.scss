@@ -130,7 +130,7 @@ body{
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 643px){
     body{
         background: url("images/bg-mobile.png");
         background-repeat: no-repeat;
@@ -140,11 +140,6 @@ body{
         place-items: center;
         place-content: center;
         margin: 0 1em;
-    }
-}
-
-@media screen and (max-width: 1300px){
-    body{
         flex-direction: column;
     }
     .hero{
